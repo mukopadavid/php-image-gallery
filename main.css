@@ -1,0 +1,39 @@
+.container {
+  margin: 0 2rem;
+}
+
+form {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 60vh;
+  background-color: royalblue;
+}
+
+input#file {
+  width: 100%;
+  border: 1px solid #fff;
+  border-top: none;
+  border-right: none;
+  margin-bottom: 10px;
+  margin-top: 2rem;
+}
+
+button {
+  padding: 10px 16px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border-radius: 0.5rem;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 769px) {
+  form {
+    width: 60%;
+    margin: auto;
+    overflow: hidden;
+  }
+}
